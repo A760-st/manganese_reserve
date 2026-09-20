@@ -1,0 +1,1 @@
+# feature catalog\n\nThis document defines the feature catalog for the Manganese Reserve Intelligence MVP. The current implementation runs in demo mode with explicit provenance labels and is designed for later replacement with authorized operational data.

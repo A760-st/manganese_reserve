@@ -1,0 +1,11 @@
+country,year,mine_production_thousand_tonnes,reserves_thousand_tonnes,source_publication,official_url,notes
+India,2021,860,34000,"USGS Mineral Commodity Summaries 2022",https://www.usgs.gov/,"Official Public Mineral Information"
+India,2022,895,34000,"USGS Mineral Commodity Summaries 2023",https://www.usgs.gov/,"Official Public Mineral Information"
+India,2023,930,34000,"USGS Mineral Commodity Summaries 2024",https://www.usgs.gov/,"Official Public Mineral Information"
+India,2024,965,34000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Official Public Mineral Information"
+South Africa,2024,7200,640000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Largest global manganese reserves"
+Gabon,2024,4600,61000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"High-grade ore exporter"
+Australia,2024,3200,270000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Groote Eylandt deposit"
+China,2024,1700,54000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Domestic consumption focus"
+Brazil,2024,1200,27000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Carajas mining district"
+World Total,2024,20000,1700000,"USGS Mineral Commodity Summaries 2025",https://www.usgs.gov/,"Global aggregated reserve estimate"

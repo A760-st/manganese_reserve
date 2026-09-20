@@ -1,0 +1,5 @@
+mine_id,name,latitude,longitude,state,country,status,provenance
+MINE-01,Dongri Buzurg Prospect,21.655,85.955,Maharashtra,India,OPERATIONAL,DEMO DATA / SYNTHETIC DATA
+MINE-02,Mansar Ridge Mine,21.642,85.938,Maharashtra,India,OPERATIONAL,DEMO DATA / SYNTHETIC DATA
+MINE-03,Bala Hill Exploration Area,21.625,85.947,Madhya Pradesh,India,EXPLORATION,DEMO DATA / SYNTHETIC DATA
+MINE-04,Chikla Spur Mine,21.649,85.912,Maharashtra,India,OPERATIONAL,DEMO DATA / SYNTHETIC DATA

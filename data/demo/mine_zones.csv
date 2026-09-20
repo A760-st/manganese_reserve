@@ -1,0 +1,21 @@
+zone_id,mine_id,name,latitude,longitude,elevation_m,slope_deg,area_sqkm
+MINE-01-ZONE-A,MINE-01,Dongri Buzurg Prospect - Eastern Ridge,21.6578,85.9455,405.3,15.9,3.2
+MINE-01-ZONE-B,MINE-01,Dongri Buzurg Prospect - Central Bench,21.6597,85.9585,397.8,10.3,2.8
+MINE-01-ZONE-C,MINE-01,Dongri Buzurg Prospect - South Cut,21.6534,85.9456,342.6,9.0,2.1
+MINE-01-ZONE-D,MINE-01,Dongri Buzurg Prospect - West Spur,21.6455,85.949,402.5,14.2,2.5
+MINE-01-ZONE-E,MINE-01,Dongri Buzurg Prospect - North Extension,21.6494,85.9568,434.3,17.0,1.9
+MINE-02-ZONE-A,MINE-02,Mansar Ridge Mine - Eastern Ridge,21.6481,85.942,407.2,15.6,3.2
+MINE-02-ZONE-B,MINE-02,Mansar Ridge Mine - Central Bench,21.6511,85.9347,373.8,10.4,2.8
+MINE-02-ZONE-C,MINE-02,Mansar Ridge Mine - South Cut,21.6489,85.9401,360.2,9.9,2.1
+MINE-02-ZONE-D,MINE-02,Mansar Ridge Mine - West Spur,21.6427,85.9475,394.4,14.2,2.5
+MINE-02-ZONE-E,MINE-02,Mansar Ridge Mine - North Extension,21.6486,85.9404,435.9,19.3,1.9
+MINE-03-ZONE-A,MINE-03,Bala Hill Exploration Area - Eastern Ridge,21.6291,85.9379,403.8,16.2,3.2
+MINE-03-ZONE-B,MINE-03,Bala Hill Exploration Area - Central Bench,21.6166,85.9417,374.0,11.1,2.8
+MINE-03-ZONE-C,MINE-03,Bala Hill Exploration Area - South Cut,21.6277,85.9443,347.1,7.8,2.1
+MINE-03-ZONE-D,MINE-03,Bala Hill Exploration Area - West Spur,21.6203,85.9557,402.4,14.4,2.5
+MINE-03-ZONE-E,MINE-03,Bala Hill Exploration Area - North Extension,21.6184,85.9516,414.9,18.5,1.9
+MINE-04-ZONE-A,MINE-04,Chikla Spur Mine - Eastern Ridge,21.6588,85.9148,413.7,17.7,3.2
+MINE-04-ZONE-B,MINE-04,Chikla Spur Mine - Central Bench,21.6559,85.9175,377.9,10.1,2.8
+MINE-04-ZONE-C,MINE-04,Chikla Spur Mine - South Cut,21.6453,85.9074,342.3,10.8,2.1
+MINE-04-ZONE-D,MINE-04,Chikla Spur Mine - West Spur,21.6565,85.9083,402.7,13.6,2.5
+MINE-04-ZONE-E,MINE-04,Chikla Spur Mine - North Extension,21.6573,85.9112,417.9,18.0,1.9

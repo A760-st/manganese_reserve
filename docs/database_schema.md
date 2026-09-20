@@ -1,0 +1,1 @@
+# database schema\n\nThis document defines the database schema for the Manganese Reserve Intelligence MVP. The current implementation runs in demo mode with explicit provenance labels and is designed for later replacement with authorized operational data.
