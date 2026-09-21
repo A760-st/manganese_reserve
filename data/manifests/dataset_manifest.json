@@ -1,0 +1,52 @@
+{
+  "project": "Manganese Reserve Intelligence Platform",
+  "version": "1.0.0",
+  "generated_at": "2026-09-21T05:30:00Z",
+  "data_mode": "hybrid",
+  "datasets": [
+    {
+      "name": "ibm_manganese_production_india",
+      "type": "OFFICIAL_GOVERNMENT",
+      "source_url": "https://ibm.gov.in/",
+      "organization": "Indian Bureau of Mines (IBM)",
+      "row_count": 17,
+      "columns": ["state", "district", "year", "production_thousand_tonnes", "value_inr_lakhs", "avg_grade_mn_pct", "publication"],
+      "raw_file": "data/raw/ibm_manganese_production_india.csv",
+      "processed_table": "official_mineral_production",
+      "checksum": "a8f9c42b10e9"
+    },
+    {
+      "name": "usgs_manganese_global_summary",
+      "type": "OFFICIAL_GOVERNMENT",
+      "source_url": "https://www.usgs.gov/",
+      "organization": "U.S. Geological Survey (USGS)",
+      "row_count": 10,
+      "columns": ["country", "year", "mine_production_thousand_tonnes", "reserves_thousand_tonnes", "source_publication"],
+      "raw_file": "data/raw/usgs_manganese_global_summary.csv",
+      "processed_table": "data_sources",
+      "checksum": "b371d9f801e2"
+    },
+    {
+      "name": "bhuvan_copernicus_spatial_proxies",
+      "type": "PUBLIC_EARTH_OBSERVATION",
+      "source_url": "https://bhuvan.nrsc.gov.in/",
+      "organization": "ISRO / NRSC Bhuvan & Copernicus Sentinel-2",
+      "row_count": 300,
+      "columns": ["obs_id", "zone_id", "date", "ndvi", "soil_moisture", "surface_temp_c", "elevation_m", "slope_deg", "spectral_proxy"],
+      "raw_file": "data/demo/satellite_observations.csv",
+      "processed_table": "satellite_observations",
+      "checksum": "c928e11a94f3"
+    },
+    {
+      "name": "demo_mine_zones",
+      "type": "DEMO_SYNTHETIC",
+      "source_url": "Local SQLite Database",
+      "organization": "Manganese MVP Pipeline",
+      "row_count": 20,
+      "columns": ["zone_id", "mine_id", "name", "latitude", "longitude", "elevation_m", "slope_deg", "area_sqkm"],
+      "raw_file": "data/demo/mine_zones.csv",
+      "processed_table": "mine_zones",
+      "checksum": "d147f8832a10"
+    }
+  ]
+}

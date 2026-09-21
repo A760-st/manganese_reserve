@@ -204,3 +204,30 @@ class OfficialProductionModel(Base):
     value_inr_lakhs = Column(Float)
     avg_grade_mn_pct = Column(Float)
     publication = Column(String)
+
+class PredictionLogModel(Base):
+    __tablename__ = "predictions"
+    prediction_id = Column(String, primary_key=True, index=True)
+    created_at = Column(String, index=True)
+    model_version = Column(String)
+    dataset_version = Column(String)
+    input_summary = Column(Text)
+    output_summary = Column(Text)
+    provenance_status = Column(String, default="HYBRID")
+
+class OptimizationRunModel(Base):
+    __tablename__ = "optimization_runs"
+    run_id = Column(String, primary_key=True, index=True)
+    created_at = Column(String, index=True)
+    baseline_expected_production = Column(Float)
+    optimized_expected_production = Column(Float)
+    expected_shortfall = Column(Float)
+    scenario_assumptions_json = Column(Text)
+
+class AuditEventModel(Base):
+    __tablename__ = "audit_events"
+    event_id = Column(String, primary_key=True, index=True)
+    timestamp = Column(String, index=True)
+    event_type = Column(String)
+    description = Column(String)
+    source = Column(String)

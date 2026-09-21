@@ -15,3 +15,5 @@ def test_optimization_response():
     d=client.post('/api/v1/optimization/run',json={'equipment_availability_delta':-0.2}).json()['data']; assert 'baseline_plan' in d and 'optimized_plan' in d
 def test_data_sources_registry():
     r=client.get('/api/v1/data-sources'); assert r.status_code==200; assert len(r.json()['data'])>=5
+def test_system_status():
+    r=client.get('/api/v1/system/status'); assert r.status_code==200; assert r.json()['data']['data_mode']=='hybrid'
